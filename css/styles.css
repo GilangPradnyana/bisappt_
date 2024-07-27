@@ -200,8 +200,7 @@ nav {
     
     .header-content .header-hero img {
         width: 120%;
-        margin-top: 5rem;
-        margin-bottom: 50px;
+        margin: 5rem 0 50px 0;
     }
     
     /* wave svg */
@@ -211,7 +210,11 @@ nav {
 }
 /* tablet */
 @media screen and (min-width:631px) {
-    
+    .header-content .header-hero img {
+        width: 165%;
+        margin: 5rem 0 50px 0;
+    }
+
 }
 /* desktop */
 @media screen and (min-width:992px) {
