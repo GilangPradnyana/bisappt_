@@ -211,12 +211,17 @@ nav {
 /* tablet */
 @media screen and (min-width:631px) {
     .header-content .header-hero img {
-        width: 165%;
+        min-width: 165%;
         margin: 5rem 0 50px 0;
     }
 
 }
 /* desktop */
 @media screen and (min-width:992px) {
-
+    html {
+        font-size: 100%;
+    }
+    .header-content .header-hero img {
+       margin: 0;
+    }
 }
