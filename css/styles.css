@@ -106,7 +106,7 @@ nav {
     font-weight: 700;
     color: var(--pr-color);
 }
-.header-txt div {
+#underline {
     border-bottom: 5px solid;
     border-radius: 2px;
     width: 70%;
@@ -126,7 +126,13 @@ nav {
     width: 50%;
     font-weight: 400;
 }
-.header-txt a{
+/* btn */
+.content-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.content-btn .btn-1{
     border: 1px solid;
     padding: .7rem 2rem;
     background-color: var(--pr-color);
@@ -140,6 +146,13 @@ nav {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+}
+#instagram {
+    background-image: url(../asset/instagram.svg);
+    width: 5rem;
+    height: 2rem;
+    
+    border: 1px solid ;
 }
 
 /* hero header */
