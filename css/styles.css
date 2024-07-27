@@ -160,3 +160,60 @@ nav {
     background-size: cover;
     background-image: url(../asset/wave.svg);
 }
+
+
+
+
+
+
+
+/* responsive breakpoint */
+/* Handphone */
+@media screen and (max-width:630px) {
+    html{
+        font-size: 75%;
+    }
+    /* navbar */
+    .navbar {
+        display: none;
+    }
+
+    /* content header */
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+    /* content header text */
+    .header-txt {
+        min-width: 100%;
+        text-align: center;
+    }
+    .header-txt h2 {
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .header-txt div {
+        margin: auto;
+    }
+    /* header hero */
+    
+    .header-content .header-hero img {
+        width: 120%;
+        margin-top: 5rem;
+        margin-bottom: 50px;
+    }
+    
+    /* wave svg */
+    svg {
+        display: none;
+    }
+}
+/* tablet */
+@media screen and (min-width:631px) {
+    
+}
+/* desktop */
+@media screen and (min-width:992px) {
+
+}
