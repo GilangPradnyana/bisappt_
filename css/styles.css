@@ -11,7 +11,7 @@
 
 /* style */
 header {
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     padding: 1rem 5% ;
 }
 /* header */
@@ -91,3 +91,72 @@ nav {
     font-size: 1.2rem;
 }
 
+/* content header */
+.header-content {
+    display: flex;
+    margin-top: 8rem;
+}
+/* txt */
+.header-txt {
+    width: 50%;
+}
+.header-txt h1 {
+    font-family: 'Lato';
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--pr-color);
+}
+.header-txt div {
+    border-bottom: 5px solid;
+    border-radius: 2px;
+    width: 70%;
+    color: #b6c6c6;
+    padding-bottom: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.header-txt h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Lato';
+    color: rgba(255,255,255,0.7);
+    font-size: 1.5rem;
+    width: 50%;
+    font-weight: 400;
+}
+.header-txt a{
+    border: 1px solid;
+    padding: .7rem 2rem;
+    background-color: var(--pr-color);
+    text-decoration: none;
+    color: var(--bg-color);
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* hero header */
+.header-hero img {
+    width: 200%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 2px 1px rgba(0, 0, 0, .6);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* wave css */
+.wave {
+    width: 100%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../asset/wave.svg);
+}
