@@ -134,7 +134,7 @@ nav {
     gap: 1rem;
 }
 .content-btn .btn-1{
-    border: 1px solid;
+    border: 2px solid #b6c6c6;
     padding: .7rem 2rem;
     background-color: var(--pr-color);
     text-decoration: none;
@@ -209,6 +209,7 @@ nav {
     background-size: cover;
     background-image: url(../asset/wave.svg);
 }
+
 
 
 
@@ -304,10 +305,6 @@ nav {
         width: 50%;
     }
 
-    /* wave svg */
-    svg {
-        display: none;
-    }
 
 }
 /* desktop */
