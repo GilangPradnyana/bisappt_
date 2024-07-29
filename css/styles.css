@@ -210,6 +210,66 @@ nav {
     background-image: url(../asset/wave.svg);
 }
 
+/* step by step */
+main {
+    margin: 6rem 5% 2rem;
+}
+/* header step*/
+main .header {
+    font-family: 'Lato';
+    font-size: 2rem;
+    color: var(--txt-color);
+    font-weight: bold;
+}
+main #underline {
+    width: 20%;
+    margin: 0 auto;
+    color: #044c8c;
+    margin-bottom: -5px;
+}
+
+main .header h1 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0;
+}
+span {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* svg icon */
+.step-icon {
+    display: flex;
+    /* align-items: center; */
+}
+.step-icon .icon-2, .step-icon .icon-3 {
+    margin-left: 6rem;
+}
+#icon-step {
+    width: 18rem;
+    height: 18rem;
+}
+#icon h1{
+    text-align: center;
+    color: #31363F;
+    font-family: 'Lato';
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 5px 0 5px;
+}
+#icon h2 {
+    text-align: center;
+    margin: 0 auto;
+    color: var(--txt-color);
+    font-family: 'Open Sans';
+    font-size: .9rem;
+    width: 80%;
+    line-height: 1.2rem;
+    font-weight: 380;
+}
+
+
 
 
 
