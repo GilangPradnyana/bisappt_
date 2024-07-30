@@ -241,7 +241,7 @@ span {
 /* svg icon */
 .step-icon {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 .step-icon .icon-2, .step-icon .icon-3 {
     margin-left: 6rem;
@@ -325,6 +325,24 @@ span {
     #wave {
         display: none;
     }
+
+    /* step by step */
+    main .header h1 {
+        width: 100%;
+    }
+    main .header #underline {
+        width: 70%;
+    }
+
+    /* svg icon */
+    .step-icon {
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
+    #icon {
+        margin: auto;
+        text-align: center;
+    }
 }
 /* tablet */
 @media screen and (min-width:631px) {
@@ -365,6 +383,24 @@ span {
         width: 50%;
     }
 
+     /* step by step */
+     main .header h1 {
+        width: 70%;
+    }
+    main .header #underline {
+        width: 70%;
+    }
+
+    /* svg icon */
+    .step-icon {
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
+    #icon {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
 
 }
 /* desktop */
@@ -409,5 +445,23 @@ span {
 
     svg {
         display: block;
+    }
+
+     /* step by step */
+     main .header h1 {
+        width: 50%;
+    }
+    main .header #underline {
+        width: 20%;
+    }
+
+    /* svg icon */
+    .step-icon {
+        flex-wrap: nowrap;
+    }
+    #icon {
+        margin: auto;
+        text-align: center;
+        width: 100%;
     }
 }
