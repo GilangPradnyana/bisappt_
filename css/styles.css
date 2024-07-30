@@ -308,12 +308,13 @@ span {
     }
     /* header hero */
     .header-hero {
-        min-width: 100%;
+        min-width: 80%;
         text-align: center;
-        margin: 3rem 0 2rem;
+        margin: 3rem auto 2rem;
+        border: 1px solid;
     }
     .header-content .header-hero img {
-        width: 90%;
+        width: 100%;
     }
     
     /* btn */
