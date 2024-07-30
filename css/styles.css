@@ -271,7 +271,7 @@ span {
 
 /* profuct */
 section {
-    margin: 6rem 5% 2rem;
+    margin: 10rem 5% 2rem;
 }
 /* container */
 section .container-1 {
@@ -279,7 +279,7 @@ section .container-1 {
     /* align-items: center; */
     justify-content: space-between;
     gap: 2rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 /* content txt */
 .container-1 .content h1 {
@@ -331,12 +331,6 @@ section .container-1 {
 #undraw {
     width: 589px;
 }
-
-
-
-
-
-
 
 
 /* responsive breakpoint */
@@ -409,6 +403,17 @@ section .container-1 {
         margin: auto;
         text-align: center;
     }
+
+    /* section product */
+    section .container-1 {
+        flex-wrap: wrap;
+    }
+    /* svg */
+    section .container-1 img, #undraw {
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
 /* tablet */
 @media screen and (min-width:631px) {
@@ -468,7 +473,10 @@ section .container-1 {
         width: 50%;
     }
 
-
+    /* product section */
+    section .container-1 {
+        flex-wrap: wrap;
+    }
 
 }
 /* desktop */
@@ -531,5 +539,9 @@ section .container-1 {
         margin: auto;
         text-align: center;
         width: 100%;
+    }
+    /* svg */
+    section .container-1 {
+        flex-wrap: nowrap;
     }
 }
