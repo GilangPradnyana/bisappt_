@@ -308,8 +308,9 @@ span {
     }
     /* header hero */
     .header-content .header-hero img {
-        width: 100%;
+        width: 105%;
         margin: 3rem 3% 2rem 1.5%;
+
     }
     
     /* btn */
