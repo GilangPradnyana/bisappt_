@@ -195,7 +195,7 @@ nav {
 .header-hero img {
     width: 200%;
     border-radius: 10px;
-    box-shadow: 5px 10px 2px 1px rgba(0, 0, 0, .6);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .6);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -307,10 +307,13 @@ span {
         margin: auto;
     }
     /* header hero */
+    .header-hero {
+        min-width: 100%;
+        text-align: center;
+        margin: 3rem 0 2rem;
+    }
     .header-content .header-hero img {
-        width: 105%;
-        margin: 3rem 10% 2rem;
-
+        width: 90%;
     }
     
     /* btn */
