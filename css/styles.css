@@ -269,6 +269,68 @@ span {
     font-weight: 380;
 }
 
+/* profuct */
+section {
+    margin: 6rem 5% 2rem;
+}
+/* container */
+section .container-1 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 8rem;
+}
+/* content txt */
+.container-1 .content h1 {
+    font-size: 2rem;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #31363F;
+    margin: 2rem 1rem .5rem ;
+}
+.container-1 .content h2 {
+    font-size: 1.1rem;
+    font-family: 'Open Sans';
+    margin: 0 1rem 0;
+    font-weight: 350;
+    color: #325872;
+    line-height: 1.5rem;
+}
+.container-1 .content a {
+    display: block;
+    margin: 2rem 1rem 0;
+    padding: 1rem 0 ;
+    width: 30%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Lato';
+    text-decoration: none;
+    background-color: var(--bg-color);
+    color: var(--pr-color);
+    text-align: center;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.container-1 .content a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* svg content-2 */
+#undraw {
+    width: 589px;
+}
 
 
 
@@ -405,6 +467,8 @@ span {
         text-align: center;
         width: 50%;
     }
+
+
 
 }
 /* desktop */
